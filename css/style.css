@@ -1,0 +1,55 @@
+@font-face {
+  font-family: salom;
+  src: url(/fonts/Montserrat-Black.ttf); }
+
+html {
+  font-size: 62.5%; }
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 80%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+input,
+select {
+  outline: none; }
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem; }
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.5rem; }
+
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem; }
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1rem; }
+
+.grid6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1rem; }
