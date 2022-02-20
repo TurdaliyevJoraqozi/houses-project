@@ -1,14 +1,22 @@
-.main__item {
-  display: flex;
-}
 .title {
   color: $btn-background;
   text-transform: uppercase;
   font-size: 1.4rem;
+  @include respons(small) {
+    font-size: 1.2rem;
+  }
 }
 .heading {
   color: #fff;
   font-size: 2.2rem;
+  @include respons(phone) {
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+  @include respons(small) {
+    font-size: 1.6rem;
+  }
 }
 .draw {
   background-color: #fff;
@@ -18,7 +26,16 @@
 .custumers--heading {
   color: #473b30;
   font-size: 2.8rem;
+  @include respons(phone) {
+    font-size: 1.8rem;
+  }
+  @include respons(small) {
+    font-size: 1.4rem;
+  }
 }
 .lorem {
   margin: 4rem 0;
+  @include respons(tab-port) {
+    margin: 1.4rem 0;
+  }
 }

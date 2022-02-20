@@ -6,7 +6,12 @@
   text-transform: uppercase;
   position: relative;
   transition: all 0.2s ease-out;
-
+  @include respons(tab-port) {
+    font-size: 1.2rem;
+  }
+  @include respons(small) {
+    font-size: 0.8rem;
+  }
   &::after {
     content: "";
     position: absolute;
@@ -27,4 +32,19 @@
 .hero__btn {
   display: inline-block;
   margin: 3rem 0;
+  @include respons(tab-port) {
+    font-size: 1.2rem;
+  }
+  @include respons(phone) {
+    font-size: 1rem;
+  }
+  @include respons(small) {
+    font-size: 0.8rem;
+  }
+}
+.homes__btn {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }

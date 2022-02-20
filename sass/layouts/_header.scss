@@ -1,4 +1,16 @@
 header {
   background-color: $background;
   height: 100vh;
+  @include respons(tab-land) {
+    height: 100vh;
+  }
+  @include respons(tab-port) {
+    height: 60rem;
+  }
+  @include respons(phone) {
+    height: 75rem;
+  }
+  @include respons(small) {
+    height: 65rem;
+  }
 }
