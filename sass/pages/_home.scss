@@ -1,0 +1,144 @@
+.left {
+  width: 5%;
+  height: 900rem;
+  background-color: $btn-background;
+}
+.right {
+  width: 95%;
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  &__left {
+    padding: 3rem;
+    grid-column: 1/4;
+    background-image: linear-gradient(#101d2ccb, #101d2c), url(/img/gal-7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    &--logo {
+      img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 12rem;
+        width: 15%;
+      }
+    }
+    &--footer {
+      img {
+        width: 4rem;
+      }
+    }
+    &--seen {
+      color: #fff;
+      margin-top: 10rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0;
+    }
+    &--parag {
+      text-align: center;
+      font-size: 1.4rem;
+      margin-top: -1rem;
+    }
+    &--footer {
+      margin-top: 3rem;
+      img {
+        width: 14rem;
+        height: 3rem;
+      }
+    }
+  }
+  &__right {
+    height: 100vh;
+    grid-column: 4/5;
+    &--realtors {
+      padding: 6rem;
+      text-align: center;
+      &--heading {
+        color: $btn-background;
+        margin-bottom: 8rem;
+      }
+    }
+    &--item {
+      display: flex;
+      margin-top: 2rem;
+      img {
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+      }
+      &-name {
+        color: #fff;
+        text-align: left;
+        margin-left: 1rem;
+        h3 {
+          font-size: 1.2rem;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+.section {
+  &__letters {
+    height: auto;
+    padding: 10rem 0;
+    color: #54473a;
+    &--item {
+      &:not(:last-child) {
+        margin-bottom: 6rem;
+      }
+    }
+    &--heading {
+      margin-bottom: 2rem;
+    }
+  }
+  &__custumers {
+    height: 70vh;
+
+    background-color: #f9f7f6;
+    &--left {
+      position: relative;
+      background-image: linear-gradient(#54473a86, #54473a8e),
+        url(/img/back.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 100%;
+      &--img-1 {
+        position: absolute;
+        width: 35rem;
+        height: 25rem;
+        top: 0;
+        left: 0;
+        transform: translate(40%, 50%);
+      }
+      &--img-2 {
+        position: absolute;
+        width: 35rem;
+        height: 18rem;
+        bottom: 5rem;
+        right: -3rem;
+      }
+    }
+    &--right {
+      padding: 0 10rem;
+    }
+    &--paragraf {
+      margin: 3rem 0;
+      line-height: 1.5;
+    }
+    &--title {
+      margin-top: 5rem;
+    }
+  }
+}
+
+.section__homes--img {
+  width: 4rem;
+}

@@ -1,0 +1,24 @@
+.main__item {
+  display: flex;
+}
+.title {
+  color: $btn-background;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.heading {
+  color: #fff;
+  font-size: 2.2rem;
+}
+.draw {
+  background-color: #fff;
+  width: 100%;
+  height: 1.5px;
+}
+.custumers--heading {
+  color: #473b30;
+  font-size: 2.8rem;
+}
+.lorem {
+  margin: 4rem 0;
+}
