@@ -523,7 +523,7 @@ footer {
 .section__homes {
   height: auto;
   transition: all 0.9s;
-  padding: 8rem 0; }
+  padding: 0; }
   @media (max-width: 19.5em) {
     .section__homes {
       padding: 4rem 0; } }

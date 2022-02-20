@@ -363,10 +363,11 @@
   &__homes {
     height: auto;
     transition: all 0.9s;
-    padding: 8rem 0;
+    padding: 0;
     @include respons(small) {
       padding: 4rem 0;
     }
+
     &--heading {
       transition: all 0.9s;
       position: absolute;
